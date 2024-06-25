@@ -1,0 +1,11 @@
+@import './variables.scss';
+@import './homepage.scss';
+@import './navbar.scss';
+@import './footer.scss';
+body {
+  min-height: 100vh;
+}
+a {
+  text-decoration: none;
+}
+

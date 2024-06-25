@@ -1,0 +1,46 @@
+.navigation {
+  margin: 0;
+}
+
+.homeLink {
+  text-decoration: none;
+  color: #ff4900;
+}
+
+.menuBarLinks {
+  color: #17155b;
+  text-decoration: none;
+}
+.menuBarLinks i {
+  color: #f15a24;
+}
+
+.hamburger-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20px;
+  padding: 0;
+  width: 30px;
+}
+
+.bar {
+  background-color: #000;
+  height: 3px;
+  transition: all 0.3s ease;
+}
+
+.rotate-right {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+
+.rotate-left {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+.hide {
+  opacity: 0;
+}/*# sourceMappingURL=Nav.module.css.map */

@@ -1,0 +1,210 @@
+.BannerImage .BannerCaption {
+  padding: 3rem 0 0;
+}
+.BannerImage .BannerCaption h1 {
+  padding: 0 0 5rem;
+}
+.BannerImage .BannerCaption a {
+  background-color: #f15a24;
+  padding: 1.3rem;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #fff;
+}
+
+header {
+  position: relative;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fafafa;
+  padding: 1rem 5rem;
+}
+@media (max-width: 930px) {
+  header {
+    padding: 1rem 3rem;
+  }
+}
+@media (max-width: 850px) {
+  header {
+    padding: 1rem 1rem;
+  }
+}
+@media (max-width: 799px) {
+  header {
+    padding: 0.5rem 1rem;
+  }
+}
+header .logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+header nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  transition: all 0.1s ease;
+}
+@media (max-width: 799px) {
+  header nav {
+    flex-direction: column;
+    position: fixed;
+    top: 86px;
+    background-color: #fafafa;
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    border-top: 1px solid #ccc;
+    padding: 1rem 3rem;
+    transform: scale(0.5);
+    opacity: 0;
+    visibility: hidden;
+  }
+  header nav a {
+    border-bottom: 1px solid #cccccc;
+    padding: 0.5rem;
+    display: block;
+    width: 100%;
+    justify-content: flex-start;
+    text-decoration: none;
+  }
+}
+header nav a {
+  color: #17155b;
+  transition: all 0.5s ease;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+@media (max-width: 900px) {
+  header nav a {
+    display: block;
+    text-align: center;
+  }
+  header nav a span {
+    width: 100%;
+  }
+}
+@media (max-width: 839px) {
+  header nav a {
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 799px) {
+  header nav a {
+    font-size: 1.2em;
+  }
+}
+header nav a:hover {
+  color: #cccccc;
+}
+header nav a i {
+  color: #f15a24;
+}
+@media (max-width: 900px) {
+  header nav a i {
+    width: 100%;
+  }
+}
+header .showNav {
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+}
+header .LogOnUserControl a {
+  color: #17155b;
+  line-height: 14px;
+  text-decoration: none;
+}
+header .LogOnUserControl a i {
+  color: #f15a24;
+  font-size: 32px;
+}
+header .LogOnUserControl a span {
+  width: 100%;
+  font-weight: bold;
+}
+@media (max-width: 839px) {
+  header .LogOnUserControl a {
+    font-size: 0.8em;
+  }
+}
+header #hamburgerbtn {
+  border: none;
+  background-color: transparent;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+header #hamburgerbtn span {
+  opacity: 1;
+  transition: all 0.1s ease;
+  width: 38px;
+  height: 3px;
+  background-color: #17155b;
+}
+@media (max-width: 799px) {
+  header #hamburgerbtn {
+    display: flex;
+  }
+}
+header #hamburgerbtn.showNav span:nth-child(1) {
+  transition: all 0.2s ease;
+  transform: rotate(45deg) translateY(50%) translateX(15%);
+}
+header #hamburgerbtn.showNav span:nth-child(2) {
+  transition: all 0.2s ease;
+  transform: translateX(-25%);
+  display: none;
+}
+header #hamburgerbtn.showNav span:nth-child(3) {
+  transition: all 0.2s ease;
+  transform: rotate(-45deg) translateY(-50%) translateX(15%);
+}
+
+footer {
+  border-top: 1px solid #cccccc;
+  padding: 1.8rem 3rem;
+}
+footer .footer-holder ul {
+  padding: 0;
+  margin: 0 2.3rem 0 0;
+}
+footer .footer-holder ul label {
+  width: 100%;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 0 1.8rem;
+  text-align: center;
+}
+footer .footer-holder ul li {
+  list-style: none;
+  margin: 0 0 0.8rem;
+  display: flex;
+  align-items: center;
+}
+footer .footer-holder ul li i {
+  color: #f15a24;
+}
+footer .footer-holder ul li a {
+  color: #17155b;
+  display: flex;
+  align-items: center;
+}
+footer .footer-holder div img {
+  width: 85px;
+}
+body {
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,33 @@
+{
+  "name": "Home",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "^13.0.5",
+    "@zeit/next-sass": "^1.0.1",
+    "bootstrap": "^5.3.3",
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.2",
+    "next": "^14.2.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.75.0",
+    "sass-loader": "^12.3.0"
+  },
+  "description": "homepage",
+  "main": "index.js",
+  "repository": "https://github.com/digitspty/DigitsHome.git",
+  "author": "digitspty <jmgradpanama@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  }
+}
