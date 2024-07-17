@@ -14,7 +14,6 @@ module.exports = nextConfig;
 
 // next.config.js
 module.exports = {
-  exportTrailingSlash: true,
+  trailingSlash: true,
   // Otros ajustes de configuración
 };
-
