@@ -1,6 +1,6 @@
 // components/footer.jsx
 
-import { Open_Sans } from "@next/font/google";
+import { Open_Sans } from "next/font/google";
 import Link from "next/link";
 import styles from "./footer.module.css";
 

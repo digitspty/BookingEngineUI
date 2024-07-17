@@ -15,9 +15,12 @@ export default function Page() {
       <div className="col-12 col-md-6 col-lg-6 col-xl-6 pb-0 BanneImageHolder">
         <div>
           <Image
-              src={CloudG} alt="Cloud-Graphic"
-              layout="responsive" objectFit="cover"
-              width={564} height={500}
+              src={CloudG}
+              alt="Cloud-Graphic"
+              layout="responsive"
+              objectFit="cover"
+              width={564}
+              height={500}
             />
         </div>
       </div>

@@ -1,6 +1,6 @@
 // components/Nav.jsx
 
-import { Open_Sans } from "@next/font/google";
+import { Open_Sans } from "next/font/google";
 import Link from "next/link";
 import Image from 'next/image';
 import Logotype from "/images/Logo/Desktop-logo.svg";

@@ -1,4 +1,4 @@
-import { Open_Sans } from "@next/font/google";
+import { Open_Sans } from "next/font/google";
 import Link from "next/link";
 import Image from 'next/image';
 import IG from "/images/Logo/Social/instagram.svg";
@@ -67,7 +67,7 @@ const Footer = () => {
                     <Image src={MasterCard} alt="MasterCard Logo" width={85}height={40} />
                 </div>
             </div>
-            <small class="pb-2 border-top row m-0 d-flex justify-content-center pt-2">Powered by DIGITS. 2024</small>
+            <small className="pb-2 border-top row m-0 d-flex justify-content-center pt-2">Powered by DIGITS. 2024</small>
         </div>
     </footer>
   )
