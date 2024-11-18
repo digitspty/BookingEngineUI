@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next-on-pages",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@cloudflare/next-on-pages": "^1.12.1",
     "@zeit/next-sass": "^1.0.1",
     "bootstrap": "^5.3.3",
     "eslint": "8.27.0",
@@ -17,7 +18,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sass": "^1.75.0",
-    "sass-loader": "^12.3.0"
+    "sass-loader": "^12.3.0",
+    "wrangler": "^3.67.0"
   },
   "description": "homepage",
   "main": "index.js",
